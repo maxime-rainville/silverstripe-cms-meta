@@ -1,881 +1,893 @@
 [
-    {
-        "repo": "bringyourownideas/silverstripe-composer-security-checker",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "bringyourownideas/silverstripe-composer-update-checker",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "bringyourownideas/silverstripe-maintenance",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "colymba/GridFieldBulkEditingTools",
-        "core": false,
-        "supported": true,
-        "name": "colymba/gridfield-bulk-editing-tools"
-    },
-    {
-        "repo": "composer/installers",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "dnadesign/silverstripe-elemental",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "dnadesign/silverstripe-elemental-subsites",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "dnadesign/silverstripe-elemental-userforms",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "hafriedlander/phockito",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "hafriedlander/silverstripe-phockito",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "lekoala/silverstripe-debugbar",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe-themes/silverstripe-simple",
-        "core": false,
-        "supported": true,
-        "name": "silverstripe-themes/simple"
-    },
-    {
-        "repo": "silverstripe/comment-notifications",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/cwp",
-        "name": "cwp/cwp",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/cwp-agencyextensions",
-        "name": "cwp/agency-extensions",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/cwp-core",
-        "name": "cwp/cwp-core",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/cwp-installer",
-        "name": "cwp/cwp-installer",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/cwp-pdfexport",
-        "name": "cwp/cwp-pdfexport",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/cwp-recipe-basic",
-        "core": false,
-        "supported": true,
-        "name": "cwp/cwp-recipe-basic"
-    },
-    {
-        "repo": "silverstripe/cwp-recipe-basic-dev",
-        "core": false,
-        "supported": true,
-        "name": "cwp/cwp-recipe-basic-dev"
-    },
-    {
-        "repo": "silverstripe/cwp-recipe-blog",
-        "core": false,
-        "supported": true,
-        "name": "cwp/cwp-recipe-blog"
-    },
-    {
-        "repo": "silverstripe/cwp-recipe-cms",
-        "name": "cwp/cwp-recipe-cms",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/cwp-recipe-core",
-        "name": "cwp/cwp-recipe-core",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/cwp-recipe-kitchen-sink",
-        "name": "cwp/cwp-recipe-kitchen-sink",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/cwp-recipe-search",
-        "name": "cwp/cwp-recipe-search",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/cwp-search",
-        "name": "cwp/cwp-search",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/cwp-starter-theme",
-        "name": "cwp/starter-theme",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/cwp-theme-default",
-        "core": false,
-        "supported": true,
-        "name": "cwp-themes/default"
-    },
-    {
-        "repo": "silverstripe/cwp-watea-theme",
-        "name": "cwp/watea-theme",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/eslint-config",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/multi-domain",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/recipe-authoring-tools",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/recipe-blog",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/recipe-cms",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/recipe-collaboration",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/recipe-content-blocks",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/recipe-core",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/recipe-form-building",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/recipe-plugin",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/recipe-reporting-tools",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/recipe-services",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-activedirectory",
-        "name": "silverstripe/activedirectory",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-admin",
-        "name": "silverstripe/admin",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-akismet",
-        "name": "silverstripe/akismet",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-asset-admin",
-        "name": "silverstripe/asset-admin",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-assets",
-        "name": "silverstripe/assets",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-auditor",
-        "name": "silverstripe/auditor",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-behat-extension",
-        "name": "silverstripe/behat-extension",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-blog",
-        "name": "silverstripe/blog",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-campaign-admin",
-        "name": "silverstripe/campaign-admin",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-cms",
-        "name": "silverstripe/cms",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-colorpicker",
-        "name": "silverstripe/colorpicker",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-comments",
-        "name": "silverstripe/comments",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-config",
-        "name": "silverstripe/config",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-content-widget",
-        "name": "silverstripe/content-widget",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-contentreview",
-        "name": "silverstripe/contentreview",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-controllerpolicy",
-        "name": "silverstripe/controllerpolicy",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-crazy-egg",
-        "name": "silverstripe/crazy-egg",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-crontask",
-        "name": "silverstripe/crontask",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-dms",
-        "name": "silverstripe/dms",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-dms-cart",
-        "name": "silverstripe/dms-cart",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-docsviewer",
-        "name": "silverstripe/docsviewer",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-documentconverter",
-        "name": "silverstripe/documentconverter",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-dynamodb",
-        "name": "silverstripe/dynamodb",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-elemental-bannerblock",
-        "name": "silverstripe/elemental-bannerblock",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-elemental-blocks",
-        "name": "silverstripe/elemental-blocks",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-elemental-fileblock",
-        "name": "silverstripe/elemental-fileblock",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-environmentcheck",
-        "name": "silverstripe/environmentcheck",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-errorpage",
-        "name": "silverstripe/errorpage",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-externallinks",
-        "name": "silverstripe/externallinks",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-faq",
-        "name": "silverstripe/faq",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-fontpicker",
-        "name": "silverstripe/fontpicker",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-framework",
-        "name": "silverstripe/framework",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-fulltextsearch",
-        "name": "silverstripe/fulltextsearch",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-graphql",
-        "name": "silverstripe/graphql",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-graphql-devtools",
-        "core": false,
-        "supported": true,
-        "name": "silverstripe/graphql-devtools"
-    },
-    {
-        "repo": "silverstripe/silverstripe-gridfieldqueuedexport",
-        "name": "silverstripe/gridfieldqueuedexport",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-html5",
-        "name": "silverstripe/html5",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-hybridsessions",
-        "name": "silverstripe/hybridsessions",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-iframe",
-        "name": "silverstripe/iframe",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-installer",
-        "name": "silverstripe/installer",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-intercom",
-        "name": "silverstripe/intercom",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-ldap",
-        "name": "silverstripe/ldap",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-login-forms",
-        "name": "silverstripe/login-forms",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-lumberjack",
-        "name": "silverstripe/lumberjack",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-mathspamprotection",
-        "name": "silverstripe/mathspamprotection",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-mfa",
-        "core": false,
-        "supported": true,
-        "name": "silverstripe/mfa"
-    },
-    {
-        "repo": "silverstripe/silverstripe-mimevalidator",
-        "name": "silverstripe/mimevalidator",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-omnipay",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-postgresql",
-        "name": "silverstripe/postgresql",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-realme",
-        "name": "silverstripe/realme",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-redirectedurls",
-        "name": "silverstripe/redirectedurls",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-registry",
-        "name": "silverstripe/registry",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-reports",
-        "name": "silverstripe/reports",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-restfulserver",
-        "name": "silverstripe/restfulserver",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-s3",
-        "name": "silverstripe/s3",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-saml",
-        "name": "silverstripe/saml",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-secureassets",
-        "name": "silverstripe/secureassets",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-security-extensions",
-        "name": "silverstripe/security-extensions",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-securityreport",
-        "name": "silverstripe/securityreport",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-segment-field",
-        "name": "silverstripe/segment-field",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-selectupload",
-        "name": "silverstripe/selectupload",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-serve",
-        "name": "silverstripe/serve",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-sharedraftcontent",
-        "name": "silverstripe/sharedraftcontent",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-sitebanner",
-        "name": "silverstripe/sitebanner",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-siteconfig",
-        "name": "silverstripe/siteconfig",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-sitewidecontent-report",
-        "name": "silverstripe/sitewidecontent-report",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-spamprotection",
-        "name": "silverstripe/spamprotection",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-spellcheck",
-        "name": "silverstripe/spellcheck",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-sqlite3",
-        "name": "silverstripe/sqlite3",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-staticpublisher",
-        "name": "silverstripe/staticpublisher",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-staticpublishqueue",
-        "name": "silverstripe/staticpublishqueue",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-subsites",
-        "name": "silverstripe/subsites",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-tagfield",
-        "name": "silverstripe/tagfield",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-taxonomy",
-        "name": "silverstripe/taxonomy",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-testsession",
-        "name": "silverstripe/testsession",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-textextraction",
-        "name": "silverstripe/textextraction",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-theme-colorpicker",
-        "name": "silverstripe/theme-colorpicker",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-theme-fontpicker",
-        "name": "silverstripe/theme-fontpicker",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-totp-authenticator",
-        "core": false,
-        "supported": true,
-        "name": "silverstripe/totp-authenticator"
-    },
-    {
-        "repo": "silverstripe/silverstripe-translatable",
-        "name": "silverstripe/translatable",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-upgrader",
-        "core": false,
-        "supported": true,
-        "name": "silverstripe/upgrader"
-    },
-    {
-        "repo": "silverstripe/silverstripe-userforms",
-        "name": "silverstripe/userforms",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-versioned",
-        "name": "silverstripe/versioned",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-versioned-admin",
-        "name": "silverstripe/versioned-admin",
-        "core": true,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-versionfeed",
-        "name": "silverstripe/versionfeed",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-webauthn-authenticator",
-        "core": false,
-        "supported": true,
-        "name": "silverstripe/webauthn-authenticator"
-    },
-    {
-        "repo": "silverstripe/silverstripe-widgets",
-        "name": "silverstripe/widgets",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/sspak",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/vendor-plugin",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/webpack-config",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "symbiote/silverstripe-advancedworkflow",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "symbiote/silverstripe-gridfieldextensions",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "symbiote/silverstripe-multivaluefield",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "symbiote/silverstripe-queuedjobs",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "symbiote/silverstripe-versionedfiles",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "tijsverkoyen/akismet",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "tractorcow-farm/silverstripe-fluent",
-        "core": false,
-        "supported": true,
-        "name": "tractorcow/silverstripe-fluent"
-    },
-    {
-        "repo": "tractorcow/classproxy",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "tractorcow/silverstripe-proxy-db",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "undefinedoffset/sortablegridfield",
-        "core": false,
-        "supported": true
-    },
-    {
-        "repo": "silverstripe/silverstripe-event-dispatcher",
-        "name": "silverstripe/event-dispatcher",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-ckan-registry",
-        "name": "silverstripe/ckan-registry",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-project-watcher",
-        "name": "silverstripe/project-watcher",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-installer-wizard",
-        "name": "silverstripe/installer-wizard",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-versioned-snapshots",
-        "name": "silverstripe/versioned-snapshots",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-multiform",
-        "name": "silverstripe/multiform",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-cms-events",
-        "name": "silverstripe/cms-events",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-content-notifier",
-        "name": "silverstripe/content-notifier",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/bambusa-installer",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/bambusa-theme",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-search-service",
-        "core": false,
-        "supported": false
-    },
-    {
-        "repo": "silverstripe/silverstripe-versioned-snapshot-admin",
-        "name": "silverstripe/versioned-snapshot-admin",
-        "core": false,
-        "supported": false
-    }
+  {
+    "repo": "bringyourownideas/silverstripe-composer-security-checker",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "bringyourownideas/silverstripe-composer-update-checker",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "bringyourownideas/silverstripe-maintenance",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "colymba/GridFieldBulkEditingTools",
+    "core": false,
+    "supported": true,
+    "name": "colymba/gridfield-bulk-editing-tools"
+  },
+  {
+    "repo": "composer/installers",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "dnadesign/silverstripe-elemental",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "dnadesign/silverstripe-elemental-subsites",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "dnadesign/silverstripe-elemental-userforms",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "hafriedlander/phockito",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "hafriedlander/silverstripe-phockito",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "lekoala/silverstripe-debugbar",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe-themes/silverstripe-simple",
+    "core": false,
+    "supported": true,
+    "name": "silverstripe-themes/simple"
+  },
+  {
+    "repo": "silverstripe/comment-notifications",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/cwp",
+    "name": "cwp/cwp",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/cwp-agencyextensions",
+    "name": "cwp/agency-extensions",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/cwp-core",
+    "name": "cwp/cwp-core",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/cwp-installer",
+    "name": "cwp/cwp-installer",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/cwp-pdfexport",
+    "name": "cwp/cwp-pdfexport",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-basic",
+    "core": false,
+    "supported": true,
+    "name": "cwp/cwp-recipe-basic"
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-basic-dev",
+    "core": false,
+    "supported": true,
+    "name": "cwp/cwp-recipe-basic-dev"
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-blog",
+    "core": false,
+    "supported": true,
+    "name": "cwp/cwp-recipe-blog"
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-cms",
+    "name": "cwp/cwp-recipe-cms",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-core",
+    "name": "cwp/cwp-recipe-core",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-kitchen-sink",
+    "name": "cwp/cwp-recipe-kitchen-sink",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/cwp-recipe-search",
+    "name": "cwp/cwp-recipe-search",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/cwp-search",
+    "name": "cwp/cwp-search",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/cwp-starter-theme",
+    "name": "cwp/starter-theme",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/cwp-theme-default",
+    "core": false,
+    "supported": true,
+    "name": "cwp-themes/default"
+  },
+  {
+    "repo": "silverstripe/cwp-watea-theme",
+    "name": "cwp/watea-theme",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/eslint-config",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/multi-domain",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/recipe-authoring-tools",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/recipe-blog",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/recipe-cms",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/recipe-collaboration",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/recipe-content-blocks",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/recipe-core",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/recipe-form-building",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/recipe-plugin",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/recipe-reporting-tools",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/recipe-services",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-activedirectory",
+    "name": "silverstripe/activedirectory",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-admin",
+    "name": "silverstripe/admin",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-akismet",
+    "name": "silverstripe/akismet",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-asset-admin",
+    "name": "silverstripe/asset-admin",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-assets",
+    "name": "silverstripe/assets",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-auditor",
+    "name": "silverstripe/auditor",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-behat-extension",
+    "name": "silverstripe/behat-extension",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-blog",
+    "name": "silverstripe/blog",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-campaign-admin",
+    "name": "silverstripe/campaign-admin",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-cms",
+    "name": "silverstripe/cms",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-colorpicker",
+    "name": "silverstripe/colorpicker",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-comments",
+    "name": "silverstripe/comments",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-config",
+    "name": "silverstripe/config",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-content-widget",
+    "name": "silverstripe/content-widget",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-contentreview",
+    "name": "silverstripe/contentreview",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-controllerpolicy",
+    "name": "silverstripe/controllerpolicy",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-crazy-egg",
+    "name": "silverstripe/crazy-egg",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-crontask",
+    "name": "silverstripe/crontask",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-dms",
+    "name": "silverstripe/dms",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-dms-cart",
+    "name": "silverstripe/dms-cart",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-docsviewer",
+    "name": "silverstripe/docsviewer",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-documentconverter",
+    "name": "silverstripe/documentconverter",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-dynamodb",
+    "name": "silverstripe/dynamodb",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-elemental-bannerblock",
+    "name": "silverstripe/elemental-bannerblock",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-elemental-blocks",
+    "name": "silverstripe/elemental-blocks",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-elemental-fileblock",
+    "name": "silverstripe/elemental-fileblock",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-environmentcheck",
+    "name": "silverstripe/environmentcheck",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-errorpage",
+    "name": "silverstripe/errorpage",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-externallinks",
+    "name": "silverstripe/externallinks",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-faq",
+    "name": "silverstripe/faq",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-fontpicker",
+    "name": "silverstripe/fontpicker",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-framework",
+    "name": "silverstripe/framework",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-fulltextsearch",
+    "name": "silverstripe/fulltextsearch",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-graphql",
+    "name": "silverstripe/graphql",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-graphql-devtools",
+    "core": false,
+    "supported": true,
+    "name": "silverstripe/graphql-devtools"
+  },
+  {
+    "repo": "silverstripe/silverstripe-gridfieldqueuedexport",
+    "name": "silverstripe/gridfieldqueuedexport",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-html5",
+    "name": "silverstripe/html5",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-hybridsessions",
+    "name": "silverstripe/hybridsessions",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-iframe",
+    "name": "silverstripe/iframe",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-installer",
+    "name": "silverstripe/installer",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-intercom",
+    "name": "silverstripe/intercom",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-ldap",
+    "name": "silverstripe/ldap",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-login-forms",
+    "name": "silverstripe/login-forms",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-lumberjack",
+    "name": "silverstripe/lumberjack",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-mathspamprotection",
+    "name": "silverstripe/mathspamprotection",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-mfa",
+    "core": false,
+    "supported": true,
+    "name": "silverstripe/mfa"
+  },
+  {
+    "repo": "silverstripe/silverstripe-mimevalidator",
+    "name": "silverstripe/mimevalidator",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-omnipay",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-postgresql",
+    "name": "silverstripe/postgresql",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-realme",
+    "name": "silverstripe/realme",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-redirectedurls",
+    "name": "silverstripe/redirectedurls",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-registry",
+    "name": "silverstripe/registry",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-reports",
+    "name": "silverstripe/reports",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-restfulserver",
+    "name": "silverstripe/restfulserver",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-s3",
+    "name": "silverstripe/s3",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-saml",
+    "name": "silverstripe/saml",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-secureassets",
+    "name": "silverstripe/secureassets",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-security-extensions",
+    "name": "silverstripe/security-extensions",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-securityreport",
+    "name": "silverstripe/securityreport",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-segment-field",
+    "name": "silverstripe/segment-field",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-selectupload",
+    "name": "silverstripe/selectupload",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-serve",
+    "name": "silverstripe/serve",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-sharedraftcontent",
+    "name": "silverstripe/sharedraftcontent",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-sitebanner",
+    "name": "silverstripe/sitebanner",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-siteconfig",
+    "name": "silverstripe/siteconfig",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-sitewidecontent-report",
+    "name": "silverstripe/sitewidecontent-report",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-spamprotection",
+    "name": "silverstripe/spamprotection",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-spellcheck",
+    "name": "silverstripe/spellcheck",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-sqlite3",
+    "name": "silverstripe/sqlite3",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-staticpublisher",
+    "name": "silverstripe/staticpublisher",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-staticpublishqueue",
+    "name": "silverstripe/staticpublishqueue",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-subsites",
+    "name": "silverstripe/subsites",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-tagfield",
+    "name": "silverstripe/tagfield",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-taxonomy",
+    "name": "silverstripe/taxonomy",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-testsession",
+    "name": "silverstripe/testsession",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-textextraction",
+    "name": "silverstripe/textextraction",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-theme-colorpicker",
+    "name": "silverstripe/theme-colorpicker",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-theme-fontpicker",
+    "name": "silverstripe/theme-fontpicker",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-totp-authenticator",
+    "core": false,
+    "supported": true,
+    "name": "silverstripe/totp-authenticator"
+  },
+  {
+    "repo": "silverstripe/silverstripe-translatable",
+    "name": "silverstripe/translatable",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-upgrader",
+    "core": false,
+    "supported": true,
+    "name": "silverstripe/upgrader"
+  },
+  {
+    "repo": "silverstripe/silverstripe-userforms",
+    "name": "silverstripe/userforms",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-versioned",
+    "name": "silverstripe/versioned",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-versioned-admin",
+    "name": "silverstripe/versioned-admin",
+    "core": true,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-versionfeed",
+    "name": "silverstripe/versionfeed",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-webauthn-authenticator",
+    "core": false,
+    "supported": true,
+    "name": "silverstripe/webauthn-authenticator"
+  },
+  {
+    "repo": "silverstripe/silverstripe-widgets",
+    "name": "silverstripe/widgets",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/sspak",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/vendor-plugin",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/webpack-config",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "symbiote/silverstripe-advancedworkflow",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "symbiote/silverstripe-gridfieldextensions",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "symbiote/silverstripe-multivaluefield",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "symbiote/silverstripe-queuedjobs",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "symbiote/silverstripe-versionedfiles",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "tijsverkoyen/akismet",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "tractorcow-farm/silverstripe-fluent",
+    "core": false,
+    "supported": true,
+    "name": "tractorcow/silverstripe-fluent"
+  },
+  {
+    "repo": "tractorcow/classproxy",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "tractorcow/silverstripe-proxy-db",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "undefinedoffset/sortablegridfield",
+    "core": false,
+    "supported": true
+  },
+  {
+    "repo": "silverstripe/silverstripe-event-dispatcher",
+    "name": "silverstripe/event-dispatcher",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-ckan-registry",
+    "name": "silverstripe/ckan-registry",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-project-watcher",
+    "name": "silverstripe/project-watcher",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-installer-wizard",
+    "name": "silverstripe/installer-wizard",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-versioned-snapshots",
+    "name": "silverstripe/versioned-snapshots",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-multiform",
+    "name": "silverstripe/multiform",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-cms-events",
+    "name": "silverstripe/cms-events",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-content-notifier",
+    "name": "silverstripe/content-notifier",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/bambusa-installer",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/bambusa-theme",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-search-service",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-versioned-snapshot-admin",
+    "name": "silverstripe/versioned-snapshot-admin",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-linkfield",
+    "name": "silverstripe/linkfield",
+    "core": false,
+    "supported": false
+  },
+  {
+    "repo": "silverstripe/silverstripe-session-manager",
+    "name": "silverstripe/session-manager",
+    "core": false,
+    "supported": false
+  }
 ]

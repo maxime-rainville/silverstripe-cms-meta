@@ -1,6 +1,6 @@
 {
   "name": "silverstripe-cms-meta",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Some metadata about a bunch of Silverstripe CMS modules.",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
