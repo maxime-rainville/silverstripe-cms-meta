@@ -26,7 +26,8 @@
     "supported": true
   },
   {
-    "repo": "dnadesign/silverstripe-elemental",
+    "repo": "silverstripe/silverstripe-elemental",
+    "name": "dnadesign/silverstripe-elemental",
     "core": false,
     "supported": true
   },
