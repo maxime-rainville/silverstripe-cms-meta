@@ -10,6 +10,6 @@ composer create-project $1 $TMPDIR $2 --no-interaction --no-install --quiet
 
 # Create JSON file
 mkdir -p src/lib/release-set/$1
-node extract-composer-version.js $TMPDIR/composer.lock > src/lib/release-set/$1/$2.json
+node extract-composer-version.js $TMPDIR/composer.lock $1 $2 > src/lib/release-set/$1/$2.json
 
 rm -Rf $TMPDIR

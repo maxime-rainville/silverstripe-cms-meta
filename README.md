@@ -46,7 +46,7 @@ Once the PR is merged, tag a new release in GitHub. There's a GitHub action that
 There's bash script in the root of the project that allows you to generate a list of packages version that will be installed for a specific release. It can be call with:
 
 ```bash
-bash buildRleaseSet.bash cwp/cwp-recipe-kitchen-sink 2.x-dev
+bash buildReleaseSet.bash cwp/cwp-recipe-kitchen-sink 2.x-dev
 ```
 
 This will generate a JSON file under `src/lib/release-et`. From there, update `src/index.ts` to import the new data.
