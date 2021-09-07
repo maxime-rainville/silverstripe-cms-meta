@@ -22,6 +22,7 @@ let data = JSON.parse(rawdata);
 // Build list of packages
 let dep = data['packages'].reduce(reducer, {});
 dep = data['packages-dev'].reduce(reducer, dep);
+dep[args[1]] = args[2].replace('.x-dev', '')
 
 // Write out the JSON data
 process.stdout.write(
