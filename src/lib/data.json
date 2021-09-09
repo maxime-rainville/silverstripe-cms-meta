@@ -895,5 +895,5 @@
     "repo": "silverstripe/recipe-kitchen-sink",
     "core": false,
     "supported": true
-  },
+  }
 ]
