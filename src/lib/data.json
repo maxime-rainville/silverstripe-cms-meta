@@ -890,5 +890,10 @@
     "name": "silverstripe/session-manager",
     "core": false,
     "supported": false
-  }
+  },
+  {
+    "repo": "silverstripe/recipe-kitchen-sink",
+    "core": false,
+    "supported": true
+  },
 ]
