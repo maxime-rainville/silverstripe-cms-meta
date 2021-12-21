@@ -2,7 +2,7 @@
   {
     "repo": "bringyourownideas/silverstripe-composer-security-checker",
     "core": false,
-    "supported": true
+    "supported": false
   },
   {
     "repo": "bringyourownideas/silverstripe-composer-update-checker",
@@ -44,12 +44,12 @@
   {
     "repo": "hafriedlander/phockito",
     "core": false,
-    "supported": true
+    "supported": false
   },
   {
     "repo": "hafriedlander/silverstripe-phockito",
     "core": false,
-    "supported": true
+    "supported": false
   },
   {
     "repo": "lekoala/silverstripe-debugbar",
@@ -89,7 +89,7 @@
     "repo": "silverstripe/cwp-installer",
     "name": "cwp/cwp-installer",
     "core": false,
-    "supported": true
+    "supported": false
   },
   {
     "repo": "silverstripe/cwp-pdfexport",
@@ -100,32 +100,32 @@
   {
     "repo": "silverstripe/cwp-recipe-basic",
     "core": false,
-    "supported": true,
+    "supported": false,
     "name": "cwp/cwp-recipe-basic"
   },
   {
     "repo": "silverstripe/cwp-recipe-basic-dev",
     "core": false,
-    "supported": true,
+    "supported": false,
     "name": "cwp/cwp-recipe-basic-dev"
   },
   {
     "repo": "silverstripe/cwp-recipe-blog",
     "core": false,
-    "supported": true,
+    "supported": false,
     "name": "cwp/cwp-recipe-blog"
   },
   {
     "repo": "silverstripe/cwp-recipe-cms",
     "name": "cwp/cwp-recipe-cms",
     "core": false,
-    "supported": true
+    "supported": false
   },
   {
     "repo": "silverstripe/cwp-recipe-core",
     "name": "cwp/cwp-recipe-core",
     "core": false,
-    "supported": true
+    "supported": false
   },
   {
     "repo": "silverstripe/cwp-recipe-kitchen-sink",
@@ -137,7 +137,7 @@
     "repo": "silverstripe/cwp-recipe-search",
     "name": "cwp/cwp-recipe-search",
     "core": false,
-    "supported": true
+    "supported": false
   },
   {
     "repo": "silverstripe/cwp-search",
@@ -227,7 +227,7 @@
     "repo": "silverstripe/silverstripe-activedirectory",
     "name": "silverstripe/activedirectory",
     "core": false,
-    "supported": true
+    "supported": false
   },
   {
     "repo": "silverstripe/silverstripe-admin",
@@ -335,13 +335,13 @@
     "repo": "silverstripe/silverstripe-dms",
     "name": "silverstripe/dms",
     "core": false,
-    "supported": true
+    "supported": false
   },
   {
     "repo": "silverstripe/silverstripe-dms-cart",
     "name": "silverstripe/dms-cart",
     "core": false,
-    "supported": true
+    "supported": false
   },
   {
     "repo": "silverstripe/silverstripe-docsviewer",
@@ -700,7 +700,7 @@
     "repo": "silverstripe/silverstripe-translatable",
     "name": "silverstripe/translatable",
     "core": false,
-    "supported": true
+    "supported": false
   },
   {
     "repo": "silverstripe/silverstripe-upgrader",
@@ -782,7 +782,7 @@
   {
     "repo": "symbiote/silverstripe-versionedfiles",
     "core": false,
-    "supported": true
+    "supported": false
   },
   {
     "repo": "tijsverkoyen/akismet",
