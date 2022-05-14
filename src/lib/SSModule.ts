@@ -8,4 +8,5 @@ export type SSModule = {
   readonly supported?: boolean;
   readonly ss3Branch?: boolean;
   readonly ss4Branch?: boolean;
+  readonly builds?: 'gh-actions'|'travis';
 };
